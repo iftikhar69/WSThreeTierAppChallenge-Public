@@ -1,0 +1,56 @@
+# ⚙️ Backend - WSThreeTierAppChallenge
+
+This folder contains the **Node.js + Express backend** for the application.  
+The backend handles API requests, processes logic, and will later connect to a database (MongoDB).  
+
+---
+
+## 🚀 Steps to Run
+
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+
+    Install dependencies:
+
+npm install
+
+Start the backend server:
+
+npm start
+
+The backend will run at:
+http://localhost:8080
+🛠️ Tech Stack
+
+    Node.js 🚀
+
+    Express.js ⚡
+
+    Middleware: Body-parser, CORS
+
+    Database: (MongoDB – to be added)
+
+📌 MongoDB Integration (Future Plan)
+
+In the future, this backend will connect to MongoDB for data persistence.
+Example Setup (to be added later)
+
+    Install MongoDB driver:
+
+npm install mongoose
+
+Create a connection (e.g., db.js):
+
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/myapp', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('✅ MongoDB Connected'))
+.catch(err => console.error('❌ MongoDB Connection Error:', err));
+
+Import the connection in your server.js or app.js.
+
+Define Mongoose models for your collections (e.g., User, Post, etc.).
