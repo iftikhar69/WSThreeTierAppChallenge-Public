@@ -1,76 +1,79 @@
-# WSThreeTierAppChallenge (Modified by Iftikhar)
+<img width="1024" height="578" alt="image" src="https://github.com/user-attachments/assets/6eac063f-096a-47da-81e6-809d8103f1e6" /># 🚀 WSThreeTierAppChallenge (Simplified Version)
 
-## Overview  
+**Modified & Maintained by [Iftikhar](https://github.com/iftikhar69)**  
 
-This repository contains a simplified version of the **WSThreeTierAppChallenge**.  
-Originally, it was a full **Three-Tier Web Application** (Frontend + Backend + Database), but in this repo I (Iftikhar) have kept only the **Frontend** and **Backend**.  
-
-I plan to connect the backend with a database (MongoDB) later, possibly via **Kubernetes** manually.  
-
----
-
-## Project Structure  
-
-📦 WSThreeTierAppChallenge
-┣ 📂 frontend → ReactJS frontend code
-┣ 📂 backend → NodeJS/Express backend code
-┗ 📜 README.md → Project documentation
-
+![React](https://img.shields.io/badge/Frontend-ReactJS-blue?logo=react)  
+![NodeJS](https://img.shields.io/badge/Backend-NodeJS-green?logo=node.js)  
+![Express](https://img.shields.io/badge/Framework-Express-lightgrey?logo=express)  
+![Status](https://img.shields.io/badge/Database-Removed-red?logo=mongodb)  
 
 ---
 
-## Tech Stack  
+## 📌 Overview  
 
-- **Frontend**: ReactJS  
-- **Backend**: NodeJS + Express  
-- **Database**: (Removed for now, will be connected later manually)  
+This repository is a **simplified version** of the original **Three-Tier Web Application**.  
+👉 I have kept only:  
+- 🎨 **Frontend** → ReactJS  
+- ⚙️ **Backend** → NodeJS + Express  
+
+MongoDB is removed for now (I’ll connect it later with **Kubernetes**).  
 
 ---
 
-## Getting Started  
+## 🖼️ Architecture  
 
-### 1. Clone the Repository  
+![Uploading image.png…]()
+
+
+## 🚀 Steps to Run  
+
+### ✅ Step 1: Clone the Repository  
 
 ```bash
 git clone https://github.com/iftikhar69/WSThreeTierAppChallenge-Public.git
 cd WSThreeTierAppChallenge-Public
 
-2. Run the Backend
+✅ Step 2: Start the Backend
 
 cd backend
 npm install
 npm start
 
-The backend should start on http://localhost:5000
+    Runs on → http://localhost:8080
 
-(or the port you configure).
-3. Run the Frontend
+✅ Step 3: Start the Frontend
 
 cd frontend
 npm install
 npm start
 
-The frontend should start on http://localhost:3000
+    Runs on → http://localhost:3000
 
-.
-Future Plan
+✅ Step 4: Access the App
 
-    Add MongoDB integration
-
-    Deploy with Kubernetes (EKS)
-
-    Setup CI/CD pipeline
-
-Author
-
-👨‍💻 Iftikhar
-Learning backend & cloud technologies, aiming to become a skilled software engineer and build scalable apps 🚀
-Contribution
-
-Right now, this repo is simplified for my personal learning. Contributions are welcome — feel free to fork and make improvements!
+🌍 Open http://localhost:3000
 
 
----
+Frontend will talk to backend at 8080.
+🛠️ Tech Stack
 
-👉 Next Step: Do you also want me to **generate placeholder `README.md` files for `/frontend` and `/backend`** folders (explaining how to run each)? That way, anyone opening the repo immediately understands how to use each part.
+    Frontend → ReactJS ⚛️
 
+    Backend → NodeJS + Express 🚀
+
+    Database → ❌ Removed (will add MongoDB later)
+
+📌 Future Plans
+
+    🔗 Add MongoDB database back
+
+    ☸️ Deploy with Kubernetes (AWS EKS)
+
+    🤖 Automate with CI/CD pipelines
+
+👨‍💻 Author
+
+Iftikhar
+💡 Backend Developer in learning | ☁️ Cloud Enthusiast | 🤖 AI/ML Explorer
+
+    Goal: Become a successful software engineer & entrepreneur 🚀
