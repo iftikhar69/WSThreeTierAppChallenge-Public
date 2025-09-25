@@ -74,6 +74,6 @@ Frontend will talk to backend at 8080.
 👨‍💻 Author
 
 Iftikhar
-💡 Backend Developer in learning | ☁️ Cloud Enthusiast | 🤖 AI/ML Explorer
+💡 Backend Developer in learning | ☁️ Cloud Engineer | 🤖 AI/ML Explorer
 
     Goal: Become a successful software engineer & entrepreneur 🚀
