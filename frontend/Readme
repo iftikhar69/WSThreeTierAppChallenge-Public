@@ -21,3 +21,10 @@ npm start
 
 Access the frontend at:
 http://localhost:3000
+🛠️ Tech Stack
+
+    ReactJS ⚛️
+
+    Axios / Fetch (for API calls to backend)
+
+    Node Package Manager (npm)
