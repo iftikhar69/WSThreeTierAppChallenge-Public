@@ -1,0 +1,23 @@
+# 🎨 Frontend - WSThreeTierAppChallenge
+
+This folder contains the **ReactJS frontend** for the application.  
+The frontend provides the user interface and communicates with the backend API.  
+
+---
+
+## 🚀 Steps to Run
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+
+    Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+Access the frontend at:
+http://localhost:3000
