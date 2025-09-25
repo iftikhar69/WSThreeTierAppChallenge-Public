@@ -1,4 +1,4 @@
-<img width="1024" height="578" alt="image" src="https://github.com/user-attachments/assets/6eac063f-096a-47da-81e6-809d8103f1e6" /># 🚀 WSThreeTierAppChallenge (Simplified Version)
+# 🚀 WSThreeTierAppChallenge (Simplified Version)
 
 **Modified & Maintained by [Iftikhar](https://github.com/iftikhar69)**  
 
@@ -22,7 +22,7 @@ MongoDB is removed for now (I’ll connect it later with **Kubernetes**).
 
 ## 🖼️ Architecture  
 
-![Uploading image.png…]()
+<img width="1024" height="578" alt="image" src="https://github.com/user-attachments/assets/6eac063f-096a-47da-81e6-809d8103f1e6" />
 
 
 ## 🚀 Steps to Run  
